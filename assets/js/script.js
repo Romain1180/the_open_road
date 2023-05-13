@@ -85,6 +85,16 @@ card1.addEventListener("click", function(){
   audio1.play();
 })
 
+// card1.addEventListener("click", function() {
+//   const audioElements = document.querySelectorAll('audio');
+//   for (let i = 0; i < audioElements.length; i++) {
+//     audioElements[i].style.display = 'none';
+//     audioElements[i].pause();
+//   }
+//   audio1.style.display = 'block';
+//   audio1.play();
+// });
+
 card2.addEventListener("click", function(){
   audio2.style.display = 'block';
 
