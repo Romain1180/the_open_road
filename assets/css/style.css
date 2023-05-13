@@ -115,14 +115,17 @@ hr{
     margin-left: 1vw;
 }
 
-/* medeia screnn mobile */
-
+/* medeia screen mobile */
 @media only screen and (max-width: 600px) {
     audio {
         padding-left: 0vw;
         padding-right: 0vw;
     }
 
+    .audio-container{
+        background-color: rgba(242, 242, 242, 0);
+    }
+    
     .logo img{
         width: 70%;
     }
